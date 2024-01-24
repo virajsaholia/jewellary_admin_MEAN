@@ -10,14 +10,14 @@ app.use(express.static('./assets'));
 app.get("/api/categories", (req, res) => {
     res.send(category);
 })
-app.get("/api/categories2", (req, res) => {
-    res.send(category);
-})
 
 
 
 app.get("/api/jewellaries", (req, res) => {
      res.send(jewellary);
+})
+app.get("/api/jewellaries2", (req, res) => {
+    res.send(jewellary);
 })
 
 // retrive single jewellary details
