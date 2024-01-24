@@ -10,9 +10,6 @@ app.use(express.static('./assets'));
 app.get("/api/categories", (req, res) => {
     res.send(category);
 })
-app.get("/api/categories2", (req, res) => {
-    res.send(category);
-})
 
 
 
