@@ -16,9 +16,6 @@ app.get("/api/categories", (req, res) => {
 app.get("/api/jewellaries", (req, res) => {
      res.send(jewellary);
 })
-app.get("/api/jewellaries2", (req, res) => {
-    res.send(jewellary);
-})
 
 // retrive single jewellary details
 app.get("/api/jewellaries/:id", (req, res) => {
